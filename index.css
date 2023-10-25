@@ -46,29 +46,32 @@ html, body {
     border: 10px solid rgba( 255, 255, 255, 0.18 );
     text-align:center;
     margin: 10px;
-    padding: 50px;
+    padding: 10px;
     width: 10%;
 }
 
 .pt1 {
     width:100px;
-    left: 170px;
-    top: 260px;
+    position:relative;
+    left: 160px;
+    top: 1px;
     z-index: 1;
+    display: grid;
 }
 
 .pt2 {
     width:100px;
-    left:550px;
-    top: 250px;
+    position:relative;
+    right: 80px;
     z-index: 1;
+    display: grid;
 }
 
 .pt3 {
     width:100px;
-
-    right: 4px;
-    top: 260px;
+    position:relative;
+    right: 1px;
+    top: 60px;
     z-index: 1;
 }
 
@@ -89,7 +92,7 @@ html, body {
     border: 10px solid rgba( 255, 255, 255, 0.18 );
     text-align:center; 
     margin: 10px;
-    padding: 50px;
+    padding: 10px;
     width: 10%
 }
 
@@ -102,7 +105,7 @@ html, body {
     border: 10px solid rgba( 255, 255, 255, 0.18 );
     text-align:center;
     margin: 10px;
-    padding: 50px;
+    padding: 10px;
     width: 10%;
     align-items: center;
 }
