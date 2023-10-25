@@ -52,7 +52,6 @@ html, body {
 
 .pt1 {
     width:100px;
-    position: absolute;
     left: 170px;
     top: 260px;
     z-index: 1;
@@ -60,15 +59,14 @@ html, body {
 
 .pt2 {
     width:100px;
-    position: absolute;
-    left: 440px;
+    left:550px;
     top: 250px;
     z-index: 1;
 }
 
 .pt3 {
     width:100px;
-    position: absolute;
+
     right: 4px;
     top: 260px;
     z-index: 1;
