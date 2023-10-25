@@ -1,0 +1,131 @@
+
+html, body {
+    background: linear-gradient(112.1deg, rgb(219, 149, 91) 11.4%, rgb(63, 119, 72) 70.2%);
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+#head2 {
+    background: rgba(192, 186, 186, 0.61);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(5.7px);
+    border: 1px solid rgba(255, 255, 255, 0.93);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+.contianer {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 10px;
+    align-items:center;
+}
+
+.contianer2 {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    justify-content:flex-end;
+}
+
+.paint1 {
+    background: rgba(247, 247, 247, 0.418);
+    box-shadow: 0 8px 32px 0 rgba(129, 131, 168, 0.37);
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 10px solid rgba( 255, 255, 255, 0.18 );
+    text-align:center;
+    margin: 10px;
+    padding: 50px;
+    width: 10%;
+}
+
+.pt1 {
+    width:100px;
+    position: absolute;
+    left: 170px;
+    top: 260px;
+    z-index: 1;
+}
+
+.pt2 {
+    width:100px;
+    position: absolute;
+    left: 440px;
+    top: 250px;
+    z-index: 1;
+}
+
+.pt3 {
+    width:100px;
+    position: absolute;
+    right: 4px;
+    top: 260px;
+    z-index: 1;
+}
+
+.pt4 {
+    width:150px;
+    position: absolute;
+    left: 10px;
+    top: 25px;
+    z-index: 1
+}
+
+.paint2 {
+    background: rgba(247, 247, 247, 0.418);
+    box-shadow: 0 8px 32px 0 rgba(129, 131, 168, 0.37);
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 10px solid rgba( 255, 255, 255, 0.18 );
+    text-align:center; 
+    margin: 10px;
+    padding: 50px;
+    width: 10%
+}
+
+.paint3 {
+    background: rgba(247, 247, 247, 0.418);
+    box-shadow: 0 8px 32px 0 rgba(129, 131, 168, 0.37);
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 10px solid rgba( 255, 255, 255, 0.18 );
+    text-align:center;
+    margin: 10px;
+    padding: 50px;
+    width: 10%;
+    align-items: center;
+}
+
+
+
+.Eform {
+    background: rgba(247, 247, 247, 0.418);
+    box-shadow: 0 8px 32px 0 rgba(129, 131, 168, 0.37);
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 10px solid rgba( 255, 255, 255, 0.18 );
+    padding: 100px;
+    text-align:center;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) { }
+ 
+@media all and (min-width: 768px) and (max-width: 1024px) { }
+ 
+@media all and (min-width: 480px) and (max-width: 768px) { }
+ 
+@media all and (max-width: 480px) { }
